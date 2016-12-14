@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="style_sheet">
+  <link rel="stylesheet" type="text/css" href="style/style_sheet.css">
+
+</head>
+<body>
+<div class="logo">
+    <img src="C:\Users\simi\Thinkful challenges\form_challenge\image\logo.png"/> 
+  </div> 
+  <form class='form' action="/some-server-endpoint" method='post'>
+     
+    <fieldset name="contact-info">
+      <h1>Sign Up</h1>
+
+      <label for="email">Email</label>
+      <input type="email" name='email' id='email' placeholder="foo@bar.com" />
+
+      <label for="password" required>Password</label>
+      <input type='password' pattern='[0-9/-]*' name='password' id='password' placeholder="1234passwOrd" title="A typical password" required/>
+     <button type="submit"/>Sign up</button>
+
+    <p><a href="/forgot_password/new">Forgot password?</a></p>
+       </fieldset>
+  </form>
+
+  <div class='footer'>
+    <p>Already have an account? <a href="/login">Log in</a></p>
+  </div>
+</body>
+</html>

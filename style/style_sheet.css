@@ -1,0 +1,90 @@
+body {
+  background-color: #3399ff;
+  color: black;
+  font-size: 16px;
+  font-family: 'Roboto', helvetica, sans-serif;
+}
+
+
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.logo img {
+  height: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.form {
+  width: 400px;
+  height: 450px;
+  border: 1px solid white;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px; 
+}
+
+.form fieldset {
+  border: white;
+  size: 400px;
+  align-content: center;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.form input {
+  display: block;
+  width: 286px;
+  padding: 15px;
+  border: 1px solid grey;
+  margin: 0;
+  border-color: 1px grey;
+  margin-bottom: 20px;
+}
+
+
+.form button {
+  display: block;
+  width: 320px;
+  padding: 15px;
+  margin:0;
+  border: 2px;
+  height: 55px;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #59b300;
+
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.form a {
+  color: grey;
+}
+
+a {
+  color: white;
+}
